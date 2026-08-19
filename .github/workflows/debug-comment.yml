@@ -1,0 +1,14 @@
+name: Debug Comment
+on: workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: GrantBirki/comment@v2.1.1
+        with:
+          issue-number: 1
+          comment-id: 5346864366
+          body: "debug test edit"
+          edit-mode: replace
