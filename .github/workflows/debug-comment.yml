@@ -10,6 +10,4 @@ jobs:
       - uses: GrantBirki/comment@v2.1.1
         with:
           issue-number: 1
-          comment-id: 5346864366
-          body: "debug test edit"
-          edit-mode: replace
+          body: "debug test new comment"
