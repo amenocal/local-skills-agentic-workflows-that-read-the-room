@@ -1,5 +1,6 @@
 name: Debug Comment
-on: workflow_dispatch:
+on:
+  workflow_dispatch:
 permissions:
   issues: write
 jobs:
